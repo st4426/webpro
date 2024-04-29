@@ -1,0 +1,146 @@
+<body>
+    <h3>문제 1. 아래 목록을 생성하시오.</h3>
+    음료 메뉴판
+    <div style="border: 1px solid black; padding: 10px;">
+        <p style="font-size: 20"><b>&lt; 커피 음료 &gt;</b></p>
+        <p><b>1. 아메리카노</b></p>
+        <p><b>2. 카페 모카</b></p>
+        <p><b>3. 카푸치노</b></p>
+        <p><b>4. 에스프레소</b></p>
+        <p><b>5. 바닐라 라테</b></p>
+        <p style="font-size: 20"><b>[ 차가운 음료 ]</b></p>
+        <p><b>1. 아이스 커피</b></p>
+        <p><b>2. 스무디</b></p>
+        <p><b>3. 오렌지 주스</b></p>
+        <p><b>4.아이스 티</b></p>
+        <p><b>5. 아이스 라테</b></p>
+    </div>
+</body>
+
+
+<body>
+    <h3>문제 2. 위의 목록을 선택 목록 양식을 이용하여 작성하시오.</h3>
+    <form>
+            <select name="drink">
+                <optgroup label="&lt; 따뜻한 음료 &gt;">
+                    <option>1. 아메리카노</option>
+                    <option>2. 카페 모카</option>
+                    <option>3. 카푸치노</option>
+                    <option>4. 에스프레소</option>
+                    <option>5. 바닐라 라테</option>
+                </optgroup>
+                <optgroup label="[ 차가운 음료 ]">
+                    <option>1. 아이스 커피</option>
+                    <option>2. 스무디</option>
+                    <option>3. 오렌지 주스</option>
+                    <option>4. 아이스 티</option>
+                    <option>5. 아이스 라테</option>
+                </optgroup>
+            </select>
+            <p></p>
+        </label>
+    </form>
+</body>
+
+
+
+<body>
+    <h3>문제 3. 1번 메뉴를 클릭했을 때 <span style="color:red">새창에 띄워서 보여주는 코드를 작성</span>하시오.</h3>
+        음료 메뉴판
+        <div style="border: 1px solid black; padding: 10px;">
+            <p><b>&lt; 커피 음료 &gt;</b></p>
+            <p><a href="a..jpg" target="_blank"><b>1. 아메리카노</b></a></p>
+            <p><a href="b.jpg" target="_blank"><b>2. 카페 모카</b></a></p>
+            <p><a href="c.jpg" target="_blank"><b>3. 카푸치노</b></a></p>
+            <p><a href="d.jpg" target="_blank"><b>4. 에스프레소</b></a></p>
+            <p><a href="e.png" target="_blank"><b>5. 바닐라 라테</b></a></p>
+            <p><b>[ 차가운 음료 ]</b></p>
+            <p><a href="f.jpg" target="_blank"><b>1. 아이스 커피</b></a></p>
+            <p><a href="g.jpg" target="_blank"><b>2. 스무디</b></a></p>
+            <p><a href="h.jpg" target="_blank"><b>3. 오렌지 주스</b></a></p>
+            <p><a href="i.jpg" target="_blank"><b>4. 아이스 티</b></a></p>
+            <p><a href="j.jpg" target="_blank"><b>5. 아이스 라테</b></a></p>
+        </div>
+</body>
+
+<html>
+    <body>
+        <h3>문제 4. 1번 메뉴를 아래 표와 같이 표시하시오..</h3>
+        <table border="1" style="width:70%">
+            <tr>
+                <td colspan="2" text align="center">&lt; 커피 음료 &gt;</td>
+                <td colspan="2" text align="center">[ 차가운 음료 ]</td>
+                <colgroup> 
+                    <col style="width: 35%;"/> 
+                    <col style="width: 15%;"/> 
+                    <col style="width: 35%;"/> 
+                    <col style="width: 15%;"/> 
+                </colgroup> 
+                <tbody> 
+                    <tr> 
+                        <td>1. 커피</td> 
+                        <td text align="right">3,000원</td> 
+                        <td>1. 아이스 커피</td> 
+                        <td text align="right">3,500원</td> 
+                    </tr> 
+                    <tr> 
+                        <td>2. 카페 모카</td> 
+                        <td text align="right">4,000원</td> 
+                        <td>2. 스무디</td> 
+                        <td text align="right">6,000원</td> 
+                    </tr>
+                    <tr> 
+                        <td>3. 카푸치노</td> 
+                        <td text align="right">5.000원</td> 
+                        <td>3. 오렌지 주스</td> 
+                        <td text align="right">6,000원</td> 
+                    </tr>
+                    <tr> 
+                        <td>4. 에스프레소</td> 
+                        <td text align="right">6.000원</td> 
+                        <td>4. 아이스 티</td> 
+                        <td text align="right">7.000원</td> 
+                    </tr>
+                    <tr> 
+                        <td>5. 바닐라 라테</td> 
+                        <td text align="right">7,000원</td> 
+                        <td>5. 아이스 라테</td> 
+                        <td text align="right">7.000원</td> 
+                    </tr>
+        </table>
+    </body>
+</html>
+
+<body>
+    <h3>문제 5. 아래처럼 입력방식을 사용하여 표시하시오.</h3>
+    <h3>음료 주문</h3>
+    <div style="border: 1px solid black; padding: 10px;">
+        <form>
+            <p><b>1. 매장 또는 포장</b></p>
+            <input type="radio" name="." value="." checked>매장
+            <input type="radio" name="." value=".">포장
+            <p><b>2. 음료 선택</b></p>
+            <input type="checkbox" name="." value="." checked>커피 <input type="text" size="2">잔</br>
+            <input type="checkbox" name="." value="." >카페 모카 <input type="text" size="2">잔</br>
+            <input type="checkbox" name="." value="." >카푸치노 <input type="text" size="2">잔</br>
+            <input type="checkbox" name="." value="." >에스프레소 <input type="text" size="2">잔</br>
+            <input type="checkbox" name="." value="." >바닐라 라테 <input type="text" size="2">잔</br>
+            <input type="checkbox" name="." value="." >아이스 커피 <input type="text" size="2">잔</br>
+            <input type="checkbox" name="." value="." >스무디 <input type="text" size="2">잔</br>
+            <input type="checkbox" name="." value="." >오렌지 주스 <input type="text" size="2">잔</br>
+            <input type="checkbox" name="." value="." >아이스 티 <input type="text" size="2">잔</br>
+            <input type="checkbox" name="." value="." >아이스 라테 <input type="text" size="2">잔</br>
+            <p></p>
+            <p><b>3. 추가 주문 요청 사항</b></p>
+            <textarea cols="50" rows="2">요청하실 사항을 작성해주세요.</textarea>
+            <p></p>
+            <input type="submit" value="전송">
+            <input type="reset" value="다시작성">
+            <p><b>4. 아래 버튼을 클릭하여 주문을 제출해주세요.</b></p>
+            <input type="submit" value="주문">
+            <input type="reset" value="다시주문">
+            <input type="reset" value="취소">
+        </form>
+    </div>
+    <a href="https://github.com/st4426/webpro/tree/0a8dc10dd7e171e507ffde03af06f1157a0c7835/test" target="_blank">깃허브</a>
+</body>
